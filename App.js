@@ -1,7 +1,8 @@
 const name = "Marco";
 
-function addition(num1,num2){
-console.log(num1 + num2);
+function toUpper(text){
+const upperCased = text.toUpperCase();
+console.log(upperCased);
 } 
 
-addition(5,5);
+toUpper(name);
