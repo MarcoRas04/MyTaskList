@@ -1,2 +1,9 @@
-const text = document.querySelector(".title");
-const changeColor = document.querySelector(".changeColor");
+const userList = document.querySelectorAll(".name-List li");
+
+console.log(userList);
+
+for (user of userList) {
+  user.addEventListener("Click", function () {
+    console.log(this);
+  });
+}
