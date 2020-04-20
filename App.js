@@ -1,6 +1,9 @@
-const schedules = ["Wake up", "Eat", "Netflix"];
-console.log(schedules[0]);
-schedules.push("sleep");
-console.log(schedules[3]);
-schedules.pop();
-console.log(schedules);
+Const user = {
+    name: "Marco",
+    age: 24,
+    Married: true,
+    Purchases: ["Phone" , "Car" , "Laptop"]
+};
+
+console.log(user.Purchases);
+
