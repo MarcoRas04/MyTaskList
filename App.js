@@ -1,9 +1,3 @@
-function toUpper(text){
-const upperCased = text.toUpperCase();
-console.log(upperCased);
-} 
+const name = "Marco"
 
-const toUpper = () => {
-
-    
-}
+console.log(`Hello my name is ${name}`)
