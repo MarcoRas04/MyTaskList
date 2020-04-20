@@ -1,4 +1,3 @@
-var life = 100 ; //This is the amount of life you have 
-var name = "Marco"; //This is you name... Did you Forget?
+const name = "Marco";
 
-console.log(life);
+
